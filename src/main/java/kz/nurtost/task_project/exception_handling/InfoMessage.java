@@ -1,9 +1,9 @@
 package kz.nurtost.task_project.exception_handling;
 
-public class IncorrectData {
+public class InfoMessage {
     private String info;
 
-    public IncorrectData() {
+    public InfoMessage() {
     }
 
     public String getInfo() {

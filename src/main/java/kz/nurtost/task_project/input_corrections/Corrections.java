@@ -22,7 +22,7 @@ public class Corrections {
                 signUpDTO.getPasswordConfirmation(),
                 signUpDTO.getName().trim().toLowerCase(),
                 signUpDTO.getSurname().trim().toLowerCase(),
-                signUpDTO.getAvatarLink().trim());
+                signUpDTO.getAvatarLink().trim(), signUpDTO.getSecretWordForAdmins());
     }
 
     public static LoginDTO correct(LoginDTO loginDTO) {
